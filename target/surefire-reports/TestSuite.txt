@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 222.332 sec <<< FAILURE!
+ticketBookingTest(com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest)  Time elapsed: 4.925 sec  <<< FAILURE!
+java.lang.AssertionError: Proper message is not displayed for VALID promotional code expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest.ticketBookingTest(TicketBookingTest.java:42)
+
+labelValidationTest(com.selenium.thoughtworks.marsair.validation.validationTest)  Time elapsed: 3.442 sec  <<< FAILURE!
+java.lang.AssertionError: Departure - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+
+labelValidationTest(com.selenium.thoughtworks.marsair.validation.validationTest)  Time elapsed: 3.395 sec  <<< FAILURE!
+java.lang.AssertionError: Arrival - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+
+labelValidationTest(com.selenium.thoughtworks.marsair.validation.validationTest)  Time elapsed: 3.467 sec  <<< FAILURE!
+java.lang.AssertionError: Promo Code - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+
+linkNavigateToHomePageTest(com.selenium.thoughtworks.marsair.validation.validationTest)  Time elapsed: 33.939 sec  <<< FAILURE!
+java.lang.AssertionError: "Book a ticket to the red planet now!" link is not present on search results page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.linkNavigateToHomePageTest(validationTest.java:62)
+

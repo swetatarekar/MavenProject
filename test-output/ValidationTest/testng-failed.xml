@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ValidationTest]">
+  <test name="Validating editable fields">
+    <classes>
+      <class name="com.selenium.thoughtworks.marsair.validation.validationTest"/>
+    </classes>
+  </test> <!-- Validating editable fields -->
+  <test name="Validating editable fields(failed)">
+    <classes>
+      <class name="com.selenium.thoughtworks.marsair.validation.validationTest">
+        <methods>
+          <include name="linkNavigateToHomePageTest" invocation-numbers="0 1"/>
+          <include name="quitBrowser"/>
+          <include name="dropdownValidationTest" invocation-numbers="0 1"/>
+          <include name="labelValidationTest" invocation-numbers="0 1 2"/>
+          <include name="fieldValidationTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.selenium.thoughtworks.marsair.validation.validationTest -->
+    </classes>
+  </test> <!-- Validating editable fields(failed) -->
+</suite> <!-- Failed suite [ValidationTest] -->

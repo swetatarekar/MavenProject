@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portfolio">
+
+<test name="Test 1">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.portfolio.LoginTest"></class>
+	</classes>
+</test>
+
+<test name="Least Per Asset Test">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.portfolio.LeastPerAssetTest"></class>
+	</classes>
+</test>
+
+<!--  
+<test name="Test 3">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.portfolio.Test3"></class>
+	</classes>
+</test>
+
+<test name="Test 4">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.portfolio.Test4"></class>
+	</classes>
+</test>
+
+<test name="Test 5">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.portfolio.Test5"></class>
+	</classes>
+</test>
+-->
+</suite>

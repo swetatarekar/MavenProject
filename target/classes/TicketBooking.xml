@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TicketBooking">
+
+<test name="Ticket booking Test">
+	<classes>
+		<class name="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest"></class>
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteC">
+
+<test name="Test 1">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.suiteC.Test1"></class>
+	</classes>
+</test>
+
+<test name="Test 2">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.suiteC.Test2"></class>
+	</classes>
+</test>
+
+<!--  
+<test name="Test 3">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.suiteC.Test3"></class>
+	</classes>
+</test>
+
+<test name="Test 4">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.suiteC.Test4"></class>
+	</classes>
+</test>
+
+<test name="Test 5">
+	<classes>
+		<class name="Module20.com.qtpselenium.framework.datadriven.suiteC.Test5"></class>
+	</classes>
+</test>
+-->
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ValidationTest">
+
+<test name="Validating editable fields">
+	<classes>
+		<class name="com.selenium.thoughtworks.marsair.validation.validationTest"></class>
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Project" parallel="tests">
+
+	<listeners>
+		<listener class-name="Module20.com.qtpselenium.framework.datadriven.CostomListener"></listener>
+	</listeners>
+
+	<suite-files>
+		<suite-file path="./Portfolio.xml"></suite-file>
+		<suite-file path="./StockSuite.xml"></suite-file>
+		<!-- <suite-file path="./SuiteC.xml"></suite-file> -->
+	</suite-files>
+	
+	
+</suite>

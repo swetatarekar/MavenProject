@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="5" name="TestSuite" time="205.162" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\study selenium\ThoughtWorks_Project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\study selenium\ThoughtWorks_Project"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SWETA_~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\selenium\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;D:\selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files (x86)\ImageMagick-6.3.9-Q16;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Git\cmd;D:\selenium\Stanalone_JASON\libs;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\sweta_000"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sweta_000"/>
+    <property name="java.class.path" value="D:\selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="6.91"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="4.976"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="4.947"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="4.614"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="34.961"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="34.492"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" name="ticketBookingTest" time="4.925">
+    <failure message="Proper message is not displayed for VALID promotional code expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Proper message is not displayed for VALID promotional code expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest.ticketBookingTest(TicketBookingTest.java:42)
+</failure>
+    <system-out>valid promotional code
+</system-out>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 25626
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="dropdownValidationTest" time="6.464"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="dropdownValidationTest" time="6.584"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="fieldValidationTest" time="4.385"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="fieldValidationTest" time="4.488"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="fieldValidationTest" time="4.396"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="fieldValidationTest" time="4.252"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="labelValidationTest" time="3.442">
+    <failure message="Departure - Label not displayed correctly expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Departure - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+</failure>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 36658
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="labelValidationTest" time="3.395">
+    <failure message="Arrival - Label not displayed correctly expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Arrival - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+</failure>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 18293
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="labelValidationTest" time="3.467">
+    <failure message="Promo Code - Label not displayed correctly expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Promo Code - Label not displayed correctly expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+</failure>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 11505
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="linkNavigateToHomePageTest" time="34.525"/>
+  <testcase classname="com.selenium.thoughtworks.marsair.validation.validationTest" name="linkNavigateToHomePageTest" time="33.939">
+    <failure message="&quot;Book a ticket to the red planet now!&quot; link is not present on search results page expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: &quot;Book a ticket to the red planet now!&quot; link is not present on search results page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.selenium.thoughtworks.marsair.validation.validationTest.linkNavigateToHomePageTest(validationTest.java:62)
+</failure>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 9554
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

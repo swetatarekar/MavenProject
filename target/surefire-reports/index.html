@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 5 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="labelValidationTest({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, De...)">labelValidationTest({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, De...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="labelValidationTest({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=...)">labelValidationTest({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="labelValidationTest({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode...)">labelValidationTest({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="linkNavigateToHomePageTest({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, L...)">linkNavigateToHomePageTest({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, L...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, Departu...)">ticketBookingTest({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, Departu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=})">dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=})">dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath})">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath})">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath})">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath})">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.validation.validationTest" hash-for-method="linkNavigateToHomePageTest({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir ...)">linkNavigateToHomePageTest({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe mess...)">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe mess...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, D...)">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, D...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checke...)">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checke...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message d...)">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; m...)">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; m...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest" hash-for-method="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is ch...)">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is ch...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.thoughtworks.marsair.validation.validationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelValidationTest({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, De...)">
+                  </a> <!-- labelValidationTest({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, De...) -->
+                  <span class="method-name">labelValidationTest</span>
+                  <span class="parameters">({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, DefectId=1.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Arrival - Label not displayed correctly expected [true] but found [false]
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelValidationTest({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=...)">
+                  </a> <!-- labelValidationTest({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=...) -->
+                  <span class="method-name">labelValidationTest</span>
+                  <span class="parameters">({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=Y, DefectId=1.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Departure - Label not displayed correctly expected [true] but found [false]
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelValidationTest({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode...)">
+                  </a> <!-- labelValidationTest({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode...) -->
+                  <span class="method-name">labelValidationTest</span>
+                  <span class="parameters">({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode=Y, DefectId=1.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Promo Code - Label not displayed correctly expected [true] but found [false]
+	at com.selenium.thoughtworks.marsair.validation.validationTest.labelValidationTest(validationTest.java:48)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkNavigateToHomePageTest({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, L...)">
+                  </a> <!-- linkNavigateToHomePageTest({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, L...) -->
+                  <span class="method-name">linkNavigateToHomePageTest</span>
+                  <span class="parameters">({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, Links="Book a ticket to the red planet now!" link})</span>
+                  <div class="stack-trace">java.lang.AssertionError: &quot;Book a ticket to the red planet now!&quot; link is not present on search results page expected [true] but found [false]
+	at com.selenium.thoughtworks.marsair.validation.validationTest.linkNavigateToHomePageTest(validationTest.java:62)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, Departu...)">
+                  </a> <!-- ticketBookingTest({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, Departu...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, DepartureDate=July, Runmode=Y, DefectId=4.0, ReturnDate=December (two years from now), Browser=chrome})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Proper message is not displayed for VALID promotional code expected [true] but found [false]
+	at com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest.ticketBookingTest(TicketBookingTest.java:42)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.thoughtworks.marsair.validation.validationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=})">
+                  </a> <!-- dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=}) -->
+                  <span class="method-name">dropdownValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=})">
+                  </a> <!-- dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=}) -->
+                  <span class="method-name">dropdownValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath})">
+                  </a> <!-- fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath}) -->
+                  <span class="method-name">fieldValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath})">
+                  </a> <!-- fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath}) -->
+                  <span class="method-name">fieldValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath})">
+                  </a> <!-- fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath}) -->
+                  <span class="method-name">fieldValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath})">
+                  </a> <!-- fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath}) -->
+                  <span class="method-name">fieldValidationTest</span>
+                  <span class="parameters">({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkNavigateToHomePageTest({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir ...)">
+                  </a> <!-- linkNavigateToHomePageTest({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir ...) -->
+                  <span class="method-name">linkNavigateToHomePageTest</span>
+                  <span class="parameters">({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir Logo Link})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe mess...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe mess...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe message is displayed, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December (two years from now), Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, D...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, D...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December (two years from now), Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checke...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checke...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checked, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December, Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message d...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message d...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message dislayed is checked, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December (next year), Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; m...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; m...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; message dislayed is checked, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December (next year), Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is ch...)">
+                  </a> <!-- ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is ch...) -->
+                  <span class="method-name">ticketBookingTest</span>
+                  <span class="parameters">({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is checked, DepartureDate=July, Runmode=Y, DefectId=, ReturnDate=December (two years from now), Browser=chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.thoughtworks.marsair.datadriven.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.selenium.thoughtworks.marsair.util.TestDataProvider&quot;/&gt;
+      &lt;class name=&quot;com.selenium.thoughtworks.marsair.validation.validationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ticketBookingTest')
+data.setCell(0, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(0, 3, 34960);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'linkNavigateToHomePageTest')
+data.setCell(1, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(1, 3, 34526);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ticketBookingTest')
+data.setCell(2, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(2, 3, 34491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'linkNavigateToHomePageTest')
+data.setCell(3, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(3, 3, 33936);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ticketBookingTest')
+data.setCell(4, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(4, 3, 6899);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dropdownValidationTest')
+data.setCell(5, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(5, 3, 6584);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'dropdownValidationTest')
+data.setCell(6, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(6, 3, 6465);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ticketBookingTest')
+data.setCell(7, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(7, 3, 4976);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ticketBookingTest')
+data.setCell(8, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(8, 3, 4947);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ticketBookingTest')
+data.setCell(9, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(9, 3, 4915);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ticketBookingTest')
+data.setCell(10, 2, 'com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest')
+data.setCell(10, 3, 4613);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'fieldValidationTest')
+data.setCell(11, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(11, 3, 4488);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'fieldValidationTest')
+data.setCell(12, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(12, 3, 4396);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fieldValidationTest')
+data.setCell(13, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(13, 3, 4384);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'fieldValidationTest')
+data.setCell(14, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(14, 3, 4251);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'labelValidationTest')
+data.setCell(15, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(15, 3, 3465);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'labelValidationTest')
+data.setCell(16, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(16, 3, 3440);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'labelValidationTest')
+data.setCell(17, 2, 'com.selenium.thoughtworks.marsair.validation.validationTest')
+data.setCell(17, 3, 3395);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.thoughtworks.marsair.bookticket.TicketBookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=valid successful search where seats availabe mess...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">6901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-419, Data Description=invalid promocode; error message is ch...)</span>
+                <span class="method-start">8556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">13533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=valid Promocode; message is checked, D...)</span>
+                <span class="method-start">14801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">19749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=schedule not possible; message dislayed is checke...)</span>
+                <span class="method-start">20960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">25575 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=AF3-FJK-418, Data Description=seats not available with promo code; m...)</span>
+                <span class="method-start">26780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">61742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ticketBookingTest({TCResult=Pass, PromotionalCode=, Data Description=seats not available without promo code; message d...)</span>
+                <span class="method-start">62907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">97399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ticketBookingTest({TCResult=Fail, PromotionalCode=JJ1-OPQ-540, Data Description=valid promo code not accepted, Departu...)</span>
+                <span class="method-start">98611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">103532 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.thoughtworks.marsair.validation.validationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=DepartureDropdownValues_xpath, Runmode=Y, DefectId=})</span>
+                <span class="method-start">104713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">111178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">dropdownValidationTest({TCResult=Pass, DropdownXpathFromPropertiesFile=ReturnDropdownValues_xpath, Runmode=Y, DefectId=})</span>
+                <span class="method-start">111179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">117763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=DepartureDropdown_xpath})</span>
+                <span class="method-start">117770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">122155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=ReturnDropdown_xpath})</span>
+                <span class="method-start">122155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">126644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=PromoCodeField_xpath})</span>
+                <span class="method-start">126645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">131041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fieldValidationTest({TCResult=Pass, Runmode=Y, DefectId=, FieldXpathFromPropertiesFile=LoginPgSearchBtn_xpath})</span>
+                <span class="method-start">131042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">135294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">labelValidationTest({TCResult=Fail, ExpectedLabel=Departure, LabelXpathFromPropertiesFile=departureLabel_xpath, Runmode=...)</span>
+                <span class="method-start">135302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">138744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">labelValidationTest({TCResult=Fail, ExpectedLabel=Arrival, LabelXpathFromPropertiesFile=returnLabel_xpath, Runmode=Y, De...)</span>
+                <span class="method-start">139998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">143394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">labelValidationTest({TCResult=Fail, ExpectedLabel=Promo Code, LabelXpathFromPropertiesFile=popmocodeLabel_xpath, Runmode...)</span>
+                <span class="method-start">144484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">147951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">linkNavigateToHomePageTest({TCResult=Pass, linksXpathFromPropertiesFile=marsAirLogo_xpath, Runmode=Y, DefectId=, Links=MarsAir ...)</span>
+                <span class="method-start">149060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">183586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">linkNavigateToHomePageTest({TCResult=Fail, linksXpathFromPropertiesFile=bookTicketToRedPlanet_xpath, Runmode=Y, DefectId=2.0, L...)</span>
+                <span class="method-start">184785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">218723 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
